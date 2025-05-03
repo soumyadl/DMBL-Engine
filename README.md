@@ -1,10 +1,11 @@
+
 # DMBL-Engine
 
 Article Title:
 
-## Mesoscopic engine in periodicically driven quantum many-body system
+## Mesoscopic engine in a periodically driven quantum many-body system
 
 ## Author:
-1] \bf{Mahbub Rahaman} : Primary & Corresponding Author
-2] \bf{Soumyabroto Majumdar}
-3] \bf{Analabha Roy} : Co-corresponding Author
+[1] Mahbub Rahaman : Primary & Corresponding Author
+[2] Soumyabroto Majumdar
+[3] Analabha Roy : Co-corresponding Author
