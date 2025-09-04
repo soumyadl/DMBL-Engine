@@ -1,0 +1,98 @@
+\documentclass[%
+reprint,
+superscriptaddress,
+%linenumbers,
+amsmath,amssymb,
+aps,
+prb,
+showkeys,
+]{revtex4-2}
+\usepackage[T1]{fontenc}
+%\usepackage{bera}
+\usepackage{color}
+\usepackage{soul}
+%\usepackage{draftwatermark}
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+\usepackage{physics}
+\usepackage{amssymb}
+\usepackage[sort&compress]{natbib}
+\usepackage{hyperref}
+\usepackage[capitalize]{cleveref}
+\usepackage{color}
+\usepackage{cleveref}
+\usepackage{enumitem}
+
+\usepackage{soul}
+\usepackage[normalem]{ulem}
+\usepackage{footnote}
+
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\usepackage{todonotes}
+
+\begin{document}
+
+\preprint{APS/123-QED}
+
+\title{Quantum engine in a periodically driven quantum many-body system}% Force line breaks with \\
+
+\author{Mahbub Rahaman}
+\email{mahbub.phys@gmail.com}
+\thanks{Primary \& Corresponding author}
+\affiliation{Department of Physics, The University of Burdwan, Golapbag, Bardhaman - 713104, India}
+\affiliation{Harish Chandra Research Institute, A CI of Homi Bhabha National Institute, Chhatnag Road, Jhunsi, Prayagraj, Uttar Pradesh
+211019, India}
+\author{Soumyabrato Majumder}
+\email{smajumder@scholar.buruniv.ac.in}
+\thanks{Co-corresponding author}
+\affiliation{Department of Physics, The University of Burdwan, Golapbag, Bardhaman - 713104, India}
+\author{Analabha Roy}
+\email{daneel@utexas.edu}
+\thanks{Co-corresponding author}
+\affiliation{Department of Physics, The University of Burdwan, Golapbag, Bardhaman - 713104, India}
+
+
+\begin{abstract}
+    Write ABSTRACT latter....
+\end{abstract}
+
+\keywords{Discrete time crystal, Flat-band protocol, Out-of-equilibrium Floquet phases.}
+\maketitle
+
+\section{Introduction}
+Quantum thermodynamic engines have emerged as a dynamic field of inquiry, propelled by advances in quantum control and many-body physics that enable novel approaches to energy conversion at the mesoscopic scale. Historically, research in quantum engines has concentrated on isolated few-body systems, wherein quantum coherence and entanglement may be exploited to surpass classical performance limits. Recent progress, however, has shifted attention toward many-body systems, where collective phenomena and non-equilibrium dynamics are of fundamental importance.
+
+A notable advancement in this context is the work of Halpern et al., who introduced the concept of a many-body localized (MBL) quantum engine. In MBL systems, disorder-induced localization inhibits thermalization, thereby preserving quantum coherence over extended timescales. This property facilitates the construction of engines capable of extracting work in regimes inaccessible to classical thermodynamics, with initial conditions remaining robust against environmental perturbations. The MBL engine paradigm has catalyzed further investigations into the roles of disorder, localization, and quantum correlations in enhancing thermodynamic performance.
+
+In parallel, periodically driven (Floquet) quantum systems have garnered significant interest. Floquet engineering offers a powerful framework for dynamically manipulating system Hamiltonians, enabling the realization of effective interactions and energy landscapes unattainable in static systems. Periodic driving can induce novel phases, regulate energy absorption, and support non-trivial engine cycles. Studies involving quantum heat engines based on spin chains, trapped ions, and superconducting qubits have demonstrated that Floquet protocols can optimize work extraction, control entropy production, and stabilize quantum coherence against decoherence.
+
+While much of the extant literature has focused on disordered or open systems, there is increasing recognition of the potential offered by clean, periodically driven many-body systems as platforms for mesoscopic quantum engines. The absence of disorder in such systems allows for precise control and reproducibility, while periodic driving introduces complex non-equilibrium dynamics. Spin systems, in particular, are well-suited for this purpose due to their experimental accessibility and theoretical tractability. By tailoring the driving protocol, it is possible to engineer the energy spectrum, simulate effective thermal reservoirs, and design engine cycles that harness collective quantum effects.
+
+The present proposal seeks to investigate the realization of a mesoscopic quantum engine within a clean, periodically driven spin system. The principal objective is to utilize Floquet engineering to establish controlled energy flows and mechanisms for work extraction, while preserving quantum coherence and minimizing entropy production. The key aims of this study are:
+
+\begin{itemize}
+\item To develop theoretical models of periodically driven spin chains capable of functioning as quantum engines.
+\item To characterize work statistics, efficiency, and power output in the presence of collective quantum phenomena.
+\item To examine the influence of entanglement, non-equilibrium steady states, and dynamical phase transitions on engine performance.
+\item To propose experimental protocols for the implementation and measurement of engine cycles in realistic spin systems (e.g., cold atoms, trapped ions, or solid-state qubits).
+\end{itemize}
+
+This research endeavors to bridge quantum thermodynamics and many-body physics, advancing beyond the constraints imposed by disorder and localization. By focusing on clean, periodically driven systems, the study aims to elucidate new principles of energy conversion and control at the quantum scale, with potential ramifications for quantum technologies and the foundational understanding of thermodynamics.
+
+\begin{acknowledgments}
+M.R. acknowledges the High Performance Computing (HPC) facility provided by The University of Burdwan. A.R. gratefully acknowledges financial support from the University Grants Commission (UGC), Government of India (Grant No. F.30-425/2018(BSR)), and the Science and Engineering Research Board (SERB), Government of India (Grant No. CRG/2018/004002). %The authors thank Dr. Sayan Choudhury (Harish-Chandra Research Institute, India) for valuable discussions and insightful suggestions.%
+\end{acknowledgments}
+
+\appendix
+
+
+
+%\nocite{*}
+\bibliographystyle{apsrev4-2}
+\bibliography{main}% Produces the bibliography via BibTeX.
+
+\end{document}
+%
+% ****** End of file apssamp.tex ******
